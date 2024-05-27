@@ -29,7 +29,11 @@ The project aims to estimate ITEs, which are crucial for understanding the effec
 - It emphasizes the effectiveness of the X-learner in handling complex data structures and varying treatment effects.
 
 ## How to Use This Repository
-- Clone the repository and ensure you have the necessary Python packages installed, such as `pandas`, `numpy`, `matplotlib`, and `scikit-learn`.
+- Clone the repository and ensure you have the necessary Python packages installed using the `requirements.txt` file. Run the following command:
+  ```bash
+  pip install -r requirements.txt
+  ```
+
 - Follow the step-by-step instructions in the Jupyter Notebook to understand the implementation details and run the provided simulations.
 
 By following this tutorial, you will gain a solid understanding of how to estimate individual treatment effects using advanced meta-learning techniques and the impact of sample size and class imbalance on these estimations.
